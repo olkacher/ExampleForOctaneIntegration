@@ -1,0 +1,124 @@
+[
+  {
+    "feature_name": "Profile management",
+    "feature_path": "C:\\Users\\o.kacher\\Documents\\FraudAi\\ExampleForOctaneIntegration\\tests\\features\\profile.feature",
+    "feature_started": 1779195152046,
+    "feature_tag": "",
+    "feature_text": "Feature: Profile management\n\n  Scenario: Update profile email\n    Given the user is on the profile page\n    When the user updates email to \"user@example.com\"\n    Then the profile email should be \"user@example.com\"\n",
+    "scenario_name": "Update profile email",
+    "scenario_status": "passed",
+    "status": "passed",
+    "duration": 0,
+    "steps": [
+      {
+        "name": "the user is on the profile page",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the user updates email to \"user@example.com\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the profile email should be \"user@example.com\"",
+        "duration": 0,
+        "status": "Passed"
+      }
+    ]
+  },
+  {
+    "feature_name": "Search",
+    "feature_path": "C:\\Users\\o.kacher\\Documents\\FraudAi\\ExampleForOctaneIntegration\\tests\\features\\search.feature",
+    "feature_started": 1779195152052,
+    "feature_tag": "",
+    "feature_text": "Feature: Search\n\n  Scenario: Search returns matching results\n    Given the user is on the search page\n    When the user searches for \"pytest\"\n    Then the search results contain \"pytest-bdd\"\n",
+    "scenario_name": "Search returns matching results",
+    "scenario_status": "passed",
+    "status": "passed",
+    "duration": 0,
+    "steps": [
+      {
+        "name": "the user is on the search page",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the user searches for \"pytest\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the search results contain \"pytest-bdd\"",
+        "duration": 0,
+        "status": "Passed"
+      }
+    ]
+  },
+  {
+    "feature_name": "Shopping cart",
+    "feature_path": "C:\\Users\\o.kacher\\Documents\\FraudAi\\ExampleForOctaneIntegration\\tests\\features\\cart.feature",
+    "feature_started": 1779195152057,
+    "feature_tag": "",
+    "feature_text": "Feature: Shopping cart\n\n  Scenario: Add and remove an item from the cart\n    Given the user has an empty cart\n    When the user adds item \"book\"\n    Then the cart contains \"book\"\n    When the user removes item \"book\"\n    Then the cart is empty\n",
+    "scenario_name": "Add and remove an item from the cart",
+    "scenario_status": "passed",
+    "status": "passed",
+    "duration": 0,
+    "steps": [
+      {
+        "name": "the user has an empty cart",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the user adds item \"book\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the cart contains \"book\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the user removes item \"book\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the cart is empty",
+        "duration": 0,
+        "status": "Passed"
+      }
+    ]
+  },
+  {
+    "feature_name": "User login",
+    "feature_path": "C:\\Users\\o.kacher\\Documents\\FraudAi\\ExampleForOctaneIntegration\\tests\\features\\login.feature",
+    "feature_started": 1779195152062,
+    "feature_tag": "",
+    "feature_text": "Feature: User login\n\n  Scenario: Successful login with correct credentials\n    Given the user is on the login page\n    When the user logs in with username \"testuser\" and password \"secret\"\n    Then login should succeed\n",
+    "scenario_name": "Successful login with correct credentials",
+    "scenario_status": "passed",
+    "status": "passed",
+    "duration": 0,
+    "steps": [
+      {
+        "name": "the user is on the login page",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "the user logs in with username \"testuser\" and password \"secret\"",
+        "duration": 0,
+        "status": "Passed"
+      },
+      {
+        "name": "login should succeed",
+        "duration": 0,
+        "status": "Passed"
+      }
+    ]
+  }
+]
