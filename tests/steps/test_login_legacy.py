@@ -1,8 +1,6 @@
 from pytest_bdd import scenarios, given, when, then, parsers
 import pytest
 
-scenarios("features/login.feature")
-
 @pytest.fixture
 def login_context():
     return {}

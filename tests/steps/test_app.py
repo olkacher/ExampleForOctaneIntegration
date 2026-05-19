@@ -1,13 +1,7 @@
-from pytest_bdd import scenarios, given, when, then, parsers
+from pytest_bdd import given, when, then, parsers
 import pytest
 
-from tests.pages import AppPages
-
-scenarios("features/login.feature")
-scenarios("features/search.feature")
-scenarios("features/cart.feature")
-scenarios("features/profile.feature")
-
+from pageobjects import AppPages
 
 @pytest.fixture
 def app():
