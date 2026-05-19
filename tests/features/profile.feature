@@ -1,4 +1,5 @@
-@TID123458REV0.1.0
+#Auto generated Octane revision tag
+@TID5010REV0.1.0
 Feature: Profile management
 
   Scenario: Update profile email

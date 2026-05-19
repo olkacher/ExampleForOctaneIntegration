@@ -1,4 +1,5 @@
-@TID123457REV0.1.0
+#Auto generated Octane revision tag
+@TID5008REV0.1.0
 Feature: User login
 
   Scenario: Successful login with correct credentials

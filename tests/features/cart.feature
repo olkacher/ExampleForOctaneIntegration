@@ -1,4 +1,5 @@
-@TID123456REV0.1.0
+#Auto generated Octane revision tag
+@TID5009REV0.1.0 
 Feature: Shopping cart
 
   Scenario: Add and remove an item from the cart
