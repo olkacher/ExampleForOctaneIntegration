@@ -1,4 +1,4 @@
-from tests.config import config
+from config import config
 
 
 class SearchPage:

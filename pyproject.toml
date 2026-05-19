@@ -12,6 +12,9 @@ build-backend = "setuptools.build_meta"
 minversion = "7.0"
 addopts = "-q"
 python_files = "test_*.py"
+filterwarnings = [
+    "ignore:Unknown pytest.mark.TID.*:pytest.PytestUnknownMarkWarning",
+]
 
 [project.optional-dependencies]
 test = [
